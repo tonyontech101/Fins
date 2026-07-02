@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "FinTrackerApp",
+    "slug": "FinTrackerApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/MainLogo.jpg",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/MainLogo.jpg",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/MainLogo.jpg"
+      },
+      "package": "com.personal.fintracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "41be51aa-8514-4c37-943f-5e227c5d66c7"
+      }
+    }
+  }
+}
